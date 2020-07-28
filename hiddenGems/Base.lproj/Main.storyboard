@@ -46,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sSx-G4-ayp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3536" y="-234"/>
+            <point key="canvasLocation" x="-3043" y="-258"/>
         </scene>
         <!--Pop CultureSF-->
         <scene sceneID="g4w-xE-0tf">
@@ -62,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bPD-Ho-XUI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2278" y="-277"/>
+            <point key="canvasLocation" x="-2599" y="1687"/>
         </scene>
         <!--MuralsSF-->
         <scene sceneID="gHr-5E-PHb">
@@ -78,7 +78,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y4n-Ph-6He" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3004" y="1286"/>
+            <point key="canvasLocation" x="-4035" y="619"/>
         </scene>
         <!--PhotosSF-->
         <scene sceneID="gtl-In-AtL">
@@ -94,7 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5AJ-LL-Tlr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3435" y="512"/>
+            <point key="canvasLocation" x="-3226" y="526"/>
         </scene>
         <!--San Francisco-->
         <scene sceneID="21H-nk-Qdf">
@@ -113,7 +113,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M15-ps-8dD">
-                                <rect key="frame" x="239" y="236" width="81" height="30"/>
+                                <rect key="frame" x="98" y="544" width="81" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pop Culture"/>
                                 <connections>
@@ -121,28 +121,33 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0M-nd-CLA">
-                                <rect key="frame" x="55" y="494" width="82" height="30"/>
+                                <rect key="frame" x="245" y="355" width="82" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="photo spots"/>
                                 <connections>
                                     <segue destination="vr4-U5-6i4" kind="show" id="8zl-Pb-jlh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSp-gm-YEP">
+                                <rect key="frame" x="94" y="355" width="47" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Murals"/>
+                                <connections>
+                                    <segue destination="aF2-gu-2dc" kind="show" id="SaF-Jr-ETg"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9b6-IO-tHj">
-                                <rect key="frame" x="294" y="522" width="45" height="30"/>
+                                <rect key="frame" x="264" y="195" width="45" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="places"/>
                                 <connections>
                                     <segue destination="33N-3J-v71" kind="show" id="Uxe-c7-waR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSp-gm-YEP">
-                                <rect key="frame" x="199" y="665" width="47" height="25"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8X-D1-S7a">
+                                <rect key="frame" x="252" y="553" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Murals"/>
-                                <connections>
-                                    <segue destination="aF2-gu-2dc" kind="show" id="SaF-Jr-ETg"/>
-                                </connections>
+                                <state key="normal" title="celebrities"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -168,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CrQ-3P-V24" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2017" y="1287"/>
+            <point key="canvasLocation" x="-2146" y="-300"/>
         </scene>
         <!--California-->
         <scene sceneID="90r-db-L4W">
@@ -416,21 +421,30 @@
                                 <rect key="frame" x="81" y="179" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Food "/>
+                                <connections>
+                                    <segue destination="Ioy-xB-Ldt" kind="show" id="P9e-qn-R3U"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVY-gr-nui">
                                 <rect key="frame" x="273" y="179" width="81" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pop Culture"/>
+                                <connections>
+                                    <segue destination="LsT-VC-5MF" kind="show" id="ydh-Hm-IUq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D69-76-7Op">
                                 <rect key="frame" x="328" y="465" width="45" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Places"/>
+                                <connections>
+                                    <segue destination="lIG-oA-vAv" kind="show" id="LZ0-OJ-RN6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4v-5V-muR">
-                                <rect key="frame" x="98" y="437" width="63" height="30"/>
+                                <rect key="frame" x="93" y="437" width="74" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Category"/>
+                                <state key="normal" title="Celebrities"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -441,6 +455,69 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NSY-dD-d4v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2512" y="429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="80x-aY-LXR">
+            <objects>
+                <viewController id="cc9-Ge-Y6c" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hIn-v5-mxw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="EaH-iy-VsB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kll-bX-VoL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2512" y="1138"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zgg-rb-zTf">
+            <objects>
+                <viewController id="Ioy-xB-Ldt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aw9-ie-eFJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="csp-sT-lfg"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="405-Aw-9Hl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N1H-wG-zCE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2512" y="-300"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SYc-sE-bpS">
+            <objects>
+                <viewController id="LsT-VC-5MF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RLJ-Im-fru">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="5dr-yd-WFB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="03g-LX-qBU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uD1-Y3-sNL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3807" y="-300"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZOV-mS-wqL">
+            <objects>
+                <viewController id="lIG-oA-vAv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OiP-lh-Byi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="jsC-Ct-F2O"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fbc-Wz-z8A"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JwS-BG-0o1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3917" y="1138"/>
         </scene>
     </scenes>
 </document>
