@@ -32,10 +32,10 @@
             </objects>
             <point key="canvasLocation" x="170" y="-387"/>
         </scene>
-        <!--View Controller-->
+        <!--San Francisco-->
         <scene sceneID="21H-nk-Qdf">
             <objects>
-                <viewController id="uBu-Wq-AZn" sceneMemberID="viewController">
+                <viewController id="uBu-Wq-AZn" customClass="sanFrancisco" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mtA-Wp-iuv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,10 +142,10 @@
             </objects>
             <point key="canvasLocation" x="170" y="1627"/>
         </scene>
-        <!--View Controller-->
+        <!--St Louis-->
         <scene sceneID="vgD-3S-XJO">
             <objects>
-                <viewController id="a8M-Qt-CnR" sceneMemberID="viewController">
+                <viewController id="a8M-Qt-CnR" customClass="stLouis" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ouf-IQ-zgD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -184,10 +184,10 @@
             </objects>
             <point key="canvasLocation" x="1629" y="429"/>
         </scene>
-        <!--View Controller-->
+        <!--Chicago-->
         <scene sceneID="yEK-0h-de0">
             <objects>
-                <viewController id="Wc0-T0-RyN" sceneMemberID="viewController">
+                <viewController id="Wc0-T0-RyN" customClass="chicago" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tOb-aC-Fmu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
