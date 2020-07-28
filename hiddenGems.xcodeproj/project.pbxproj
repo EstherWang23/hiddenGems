@@ -24,6 +24,11 @@
 		04F0250224D0978B0081F1C7 /* popCultureStl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250124D0978B0081F1C7 /* popCultureStl.swift */; };
 		04F0250424D097980081F1C7 /* celebritiesStl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250324D097980081F1C7 /* celebritiesStl.swift */; };
 		04F0250624D097B10081F1C7 /* placesStl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250524D097B10081F1C7 /* placesStl.swift */; };
+		04F0250824D0A8640081F1C7 /* popCultureSF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250724D0A8640081F1C7 /* popCultureSF.swift */; };
+		04F0250A24D0A8770081F1C7 /* placesSF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250924D0A8770081F1C7 /* placesSF.swift */; };
+		04F0250C24D0A8830081F1C7 /* photosSF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250B24D0A8830081F1C7 /* photosSF.swift */; };
+		04F0250E24D0A88E0081F1C7 /* foodSF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250D24D0A88E0081F1C7 /* foodSF.swift */; };
+		04F0251024D0A8AC0081F1C7 /* muralsSF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250F24D0A8AC0081F1C7 /* muralsSF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +51,11 @@
 		04F0250124D0978B0081F1C7 /* popCultureStl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popCultureStl.swift; sourceTree = "<group>"; };
 		04F0250324D097980081F1C7 /* celebritiesStl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celebritiesStl.swift; sourceTree = "<group>"; };
 		04F0250524D097B10081F1C7 /* placesStl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placesStl.swift; sourceTree = "<group>"; };
+		04F0250724D0A8640081F1C7 /* popCultureSF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popCultureSF.swift; sourceTree = "<group>"; };
+		04F0250924D0A8770081F1C7 /* placesSF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placesSF.swift; sourceTree = "<group>"; };
+		04F0250B24D0A8830081F1C7 /* photosSF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photosSF.swift; sourceTree = "<group>"; };
+		04F0250D24D0A88E0081F1C7 /* foodSF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodSF.swift; sourceTree = "<group>"; };
+		04F0250F24D0A8AC0081F1C7 /* muralsSF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muralsSF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +102,11 @@
 				04F024FF24D0977A0081F1C7 /* foodStl.swift */,
 				04F024F324D08EC90081F1C7 /* california.swift */,
 				04F024FD24D0937D0081F1C7 /* sanFrancisco.swift */,
+				04F0250F24D0A8AC0081F1C7 /* muralsSF.swift */,
+				04F0250D24D0A88E0081F1C7 /* foodSF.swift */,
+				04F0250B24D0A8830081F1C7 /* photosSF.swift */,
+				04F0250924D0A8770081F1C7 /* placesSF.swift */,
+				04F0250724D0A8640081F1C7 /* popCultureSF.swift */,
 				0430D51E24CF69F600A91F89 /* Main.storyboard */,
 				0430D52124CF69FB00A91F89 /* Assets.xcassets */,
 				0430D52324CF69FB00A91F89 /* LaunchScreen.storyboard */,
@@ -172,18 +187,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F024FC24D093700081F1C7 /* stLouis.swift in Sources */,
+				04F0251024D0A8AC0081F1C7 /* muralsSF.swift in Sources */,
 				04F0250024D0977A0081F1C7 /* foodStl.swift in Sources */,
+				04F0250C24D0A8830081F1C7 /* photosSF.swift in Sources */,
 				04F024F224D08D350081F1C7 /* usMap.swift in Sources */,
 				0430D51D24CF69F600A91F89 /* ViewController.swift in Sources */,
 				04F0250224D0978B0081F1C7 /* popCultureStl.swift in Sources */,
 				04F024F624D08EEE0081F1C7 /* missouri.swift in Sources */,
+				04F0250824D0A8640081F1C7 /* popCultureSF.swift in Sources */,
 				0430D51924CF69F600A91F89 /* AppDelegate.swift in Sources */,
 				04F024F424D08EC90081F1C7 /* california.swift in Sources */,
 				04F0250424D097980081F1C7 /* celebritiesStl.swift in Sources */,
+				04F0250A24D0A8770081F1C7 /* placesSF.swift in Sources */,
 				04F024F824D08EFA0081F1C7 /* illinois.swift in Sources */,
 				04F024FE24D0937D0081F1C7 /* sanFrancisco.swift in Sources */,
 				04F024FA24D093620081F1C7 /* chicago.swift in Sources */,
 				0430D51B24CF69F600A91F89 /* SceneDelegate.swift in Sources */,
+				04F0250E24D0A88E0081F1C7 /* foodSF.swift in Sources */,
 				04F0250624D097B10081F1C7 /* placesStl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
