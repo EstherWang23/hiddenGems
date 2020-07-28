@@ -14,6 +14,9 @@
 		0430D52224CF69FB00A91F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0430D52124CF69FB00A91F89 /* Assets.xcassets */; };
 		0430D52524CF69FB00A91F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0430D52324CF69FB00A91F89 /* LaunchScreen.storyboard */; };
 		04F024F224D08D350081F1C7 /* usMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F024F124D08D350081F1C7 /* usMap.swift */; };
+		04F024F424D08EC90081F1C7 /* california.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F024F324D08EC90081F1C7 /* california.swift */; };
+		04F024F624D08EEE0081F1C7 /* missouri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F024F524D08EEE0081F1C7 /* missouri.swift */; };
+		04F024F824D08EFA0081F1C7 /* illinois.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F024F724D08EFA0081F1C7 /* illinois.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		0430D52424CF69FB00A91F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0430D52624CF69FB00A91F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F024F124D08D350081F1C7 /* usMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usMap.swift; sourceTree = "<group>"; };
+		04F024F324D08EC90081F1C7 /* california.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = california.swift; sourceTree = "<group>"; };
+		04F024F524D08EEE0081F1C7 /* missouri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = missouri.swift; sourceTree = "<group>"; };
+		04F024F724D08EFA0081F1C7 /* illinois.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = illinois.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				0430D51A24CF69F600A91F89 /* SceneDelegate.swift */,
 				0430D51C24CF69F600A91F89 /* ViewController.swift */,
 				04F024F124D08D350081F1C7 /* usMap.swift */,
+				04F024F724D08EFA0081F1C7 /* illinois.swift */,
+				04F024F524D08EEE0081F1C7 /* missouri.swift */,
+				04F024F324D08EC90081F1C7 /* california.swift */,
 				0430D51E24CF69F600A91F89 /* Main.storyboard */,
 				0430D52124CF69FB00A91F89 /* Assets.xcassets */,
 				0430D52324CF69FB00A91F89 /* LaunchScreen.storyboard */,
@@ -143,7 +152,10 @@
 			files = (
 				04F024F224D08D350081F1C7 /* usMap.swift in Sources */,
 				0430D51D24CF69F600A91F89 /* ViewController.swift in Sources */,
+				04F024F624D08EEE0081F1C7 /* missouri.swift in Sources */,
 				0430D51924CF69F600A91F89 /* AppDelegate.swift in Sources */,
+				04F024F424D08EC90081F1C7 /* california.swift in Sources */,
+				04F024F824D08EFA0081F1C7 /* illinois.swift in Sources */,
 				0430D51B24CF69F600A91F89 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
