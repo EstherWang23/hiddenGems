@@ -20,6 +20,10 @@
 		04F024FA24D093620081F1C7 /* chicago.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F024F924D093620081F1C7 /* chicago.swift */; };
 		04F024FC24D093700081F1C7 /* stLouis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F024FB24D093700081F1C7 /* stLouis.swift */; };
 		04F024FE24D0937D0081F1C7 /* sanFrancisco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F024FD24D0937D0081F1C7 /* sanFrancisco.swift */; };
+		04F0250024D0977A0081F1C7 /* foodStl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F024FF24D0977A0081F1C7 /* foodStl.swift */; };
+		04F0250224D0978B0081F1C7 /* popCultureStl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250124D0978B0081F1C7 /* popCultureStl.swift */; };
+		04F0250424D097980081F1C7 /* celebritiesStl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250324D097980081F1C7 /* celebritiesStl.swift */; };
+		04F0250624D097B10081F1C7 /* placesStl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250524D097B10081F1C7 /* placesStl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		04F024F924D093620081F1C7 /* chicago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chicago.swift; sourceTree = "<group>"; };
 		04F024FB24D093700081F1C7 /* stLouis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stLouis.swift; sourceTree = "<group>"; };
 		04F024FD24D0937D0081F1C7 /* sanFrancisco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sanFrancisco.swift; sourceTree = "<group>"; };
+		04F024FF24D0977A0081F1C7 /* foodStl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodStl.swift; sourceTree = "<group>"; };
+		04F0250124D0978B0081F1C7 /* popCultureStl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popCultureStl.swift; sourceTree = "<group>"; };
+		04F0250324D097980081F1C7 /* celebritiesStl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celebritiesStl.swift; sourceTree = "<group>"; };
+		04F0250524D097B10081F1C7 /* placesStl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placesStl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,10 @@
 				04F024F924D093620081F1C7 /* chicago.swift */,
 				04F024F524D08EEE0081F1C7 /* missouri.swift */,
 				04F024FB24D093700081F1C7 /* stLouis.swift */,
+				04F0250524D097B10081F1C7 /* placesStl.swift */,
+				04F0250324D097980081F1C7 /* celebritiesStl.swift */,
+				04F0250124D0978B0081F1C7 /* popCultureStl.swift */,
+				04F024FF24D0977A0081F1C7 /* foodStl.swift */,
 				04F024F324D08EC90081F1C7 /* california.swift */,
 				04F024FD24D0937D0081F1C7 /* sanFrancisco.swift */,
 				0430D51E24CF69F600A91F89 /* Main.storyboard */,
@@ -160,15 +172,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F024FC24D093700081F1C7 /* stLouis.swift in Sources */,
+				04F0250024D0977A0081F1C7 /* foodStl.swift in Sources */,
 				04F024F224D08D350081F1C7 /* usMap.swift in Sources */,
 				0430D51D24CF69F600A91F89 /* ViewController.swift in Sources */,
+				04F0250224D0978B0081F1C7 /* popCultureStl.swift in Sources */,
 				04F024F624D08EEE0081F1C7 /* missouri.swift in Sources */,
 				0430D51924CF69F600A91F89 /* AppDelegate.swift in Sources */,
 				04F024F424D08EC90081F1C7 /* california.swift in Sources */,
+				04F0250424D097980081F1C7 /* celebritiesStl.swift in Sources */,
 				04F024F824D08EFA0081F1C7 /* illinois.swift in Sources */,
 				04F024FE24D0937D0081F1C7 /* sanFrancisco.swift in Sources */,
 				04F024FA24D093620081F1C7 /* chicago.swift in Sources */,
 				0430D51B24CF69F600A91F89 /* SceneDelegate.swift in Sources */,
+				04F0250624D097B10081F1C7 /* placesStl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
