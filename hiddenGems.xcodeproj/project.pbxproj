@@ -29,6 +29,7 @@
 		04F0250C24D0A8830081F1C7 /* photosSF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250B24D0A8830081F1C7 /* photosSF.swift */; };
 		04F0250E24D0A88E0081F1C7 /* foodSF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250D24D0A88E0081F1C7 /* foodSF.swift */; };
 		04F0251024D0A8AC0081F1C7 /* muralsSF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0250F24D0A8AC0081F1C7 /* muralsSF.swift */; };
+		04F0251224D0AB470081F1C7 /* celebritiesSF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0251124D0AB470081F1C7 /* celebritiesSF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		04F0250B24D0A8830081F1C7 /* photosSF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photosSF.swift; sourceTree = "<group>"; };
 		04F0250D24D0A88E0081F1C7 /* foodSF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodSF.swift; sourceTree = "<group>"; };
 		04F0250F24D0A8AC0081F1C7 /* muralsSF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muralsSF.swift; sourceTree = "<group>"; };
+		04F0251124D0AB470081F1C7 /* celebritiesSF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celebritiesSF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				04F024FF24D0977A0081F1C7 /* foodStl.swift */,
 				04F024F324D08EC90081F1C7 /* california.swift */,
 				04F024FD24D0937D0081F1C7 /* sanFrancisco.swift */,
+				04F0251124D0AB470081F1C7 /* celebritiesSF.swift */,
 				04F0250F24D0A8AC0081F1C7 /* muralsSF.swift */,
 				04F0250D24D0A88E0081F1C7 /* foodSF.swift */,
 				04F0250B24D0A8830081F1C7 /* photosSF.swift */,
@@ -200,6 +203,7 @@
 				04F0250424D097980081F1C7 /* celebritiesStl.swift in Sources */,
 				04F0250A24D0A8770081F1C7 /* placesSF.swift in Sources */,
 				04F024F824D08EFA0081F1C7 /* illinois.swift in Sources */,
+				04F0251224D0AB470081F1C7 /* celebritiesSF.swift in Sources */,
 				04F024FE24D0937D0081F1C7 /* sanFrancisco.swift in Sources */,
 				04F024FA24D093620081F1C7 /* chicago.swift in Sources */,
 				0430D51B24CF69F600A91F89 /* SceneDelegate.swift in Sources */,

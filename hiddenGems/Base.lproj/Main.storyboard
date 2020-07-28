@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -46,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sSx-G4-ayp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3043" y="-258"/>
+            <point key="canvasLocation" x="-3043" y="-300"/>
         </scene>
         <!--Pop CultureSF-->
         <scene sceneID="g4w-xE-0tf">
@@ -62,7 +62,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bPD-Ho-XUI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2599" y="1687"/>
+            <point key="canvasLocation" x="-2642" y="1377"/>
+        </scene>
+        <!--CelebritiesSF-->
+        <scene sceneID="n2I-af-DzN">
+            <objects>
+                <viewController id="Wgg-h9-aMA" customClass="celebritiesSF" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WQb-QL-sn3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="MR9-qf-m4H"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vgc-Z8-hNb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ChP-be-Pyu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1778" y="1377"/>
         </scene>
         <!--MuralsSF-->
         <scene sceneID="gHr-5E-PHb">
@@ -78,7 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y4n-Ph-6He" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4035" y="619"/>
+            <point key="canvasLocation" x="-4068" y="526"/>
         </scene>
         <!--PhotosSF-->
         <scene sceneID="gtl-In-AtL">
@@ -148,6 +164,9 @@
                                 <rect key="frame" x="252" y="553" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="celebrities"/>
+                                <connections>
+                                    <segue destination="Wgg-h9-aMA" kind="show" id="Z1g-Wa-NaX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -445,6 +464,9 @@
                                 <rect key="frame" x="93" y="437" width="74" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Celebrities"/>
+                                <connections>
+                                    <segue destination="cc9-Ge-Y6c" kind="show" id="kTY-oY-hdB"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chicagoFood" translatesAutoresizingMaskIntoConstraints="NO" id="TJl-rs-HLh">
                                 <rect key="frame" x="20" y="64" width="163" height="128"/>
@@ -469,11 +491,12 @@
             <objects>
                 <viewController id="cc9-Ge-Y6c" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hIn-v5-mxw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="EaH-iy-VsB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dxf-t7-Zmm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kll-bX-VoL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
