@@ -385,7 +385,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFm-vT-eRz">
-                                <rect key="frame" x="288" y="450" width="81" height="30"/>
+                                <rect key="frame" x="87" y="451" width="81" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pop Culture"/>
                                 <connections>
@@ -393,7 +393,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UGp-66-RHN">
-                                <rect key="frame" x="67" y="450" width="105" height="30"/>
+                                <rect key="frame" x="259" y="451" width="105" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Famous People"/>
                                 <connections>
@@ -401,7 +401,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZeE-Zw-nGk">
-                                <rect key="frame" x="85" y="173" width="45" height="30"/>
+                                <rect key="frame" x="83" y="55" width="45" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Places"/>
                                 <connections>
@@ -409,13 +409,29 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhy-Rv-LgN">
-                                <rect key="frame" x="288" y="154" width="39" height="30"/>
+                                <rect key="frame" x="299" y="55" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Food "/>
                                 <connections>
                                     <segue destination="Asj-xr-gsh" kind="show" id="rTJ-d1-zrg"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9688" translatesAutoresizingMaskIntoConstraints="NO" id="CO9-yw-iGo">
+                                <rect key="frame" x="9" y="148" width="193" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KpQ-i7-yrW">
+                                <rect key="frame" x="251" y="511" width="135" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8BG-bO-bRU">
+                                <rect key="frame" x="60" y="501" width="126" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="crepesSTL" translatesAutoresizingMaskIntoConstraints="NO" id="HYN-Yw-rJW">
+                                <rect key="frame" x="210" y="148" width="189" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tb-De-8IW"/>
@@ -424,7 +440,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hi5-H8-DXW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="170" y="2328"/>
+            <point key="canvasLocation" x="169.56521739130437" y="2327.0089285714284"/>
         </scene>
         <!--Celebrities Stl-->
         <scene sceneID="heC-an-dAc">
@@ -1049,6 +1065,7 @@
         <image name="11835526" width="240" height="320"/>
         <image name="5ec2038019182438795d88b3-1" width="320" height="240"/>
         <image name="606" width="1400" height="1400"/>
+        <image name="IMG_9688" width="1283" height="1278"/>
         <image name="PH1" width="300" height="168"/>
         <image name="PH2" width="201" height="251"/>
         <image name="Screen_Shot_2016-05-01_at_12.14.34_PM.0.0.png-1" width="320" height="213"/>
@@ -1057,6 +1074,7 @@
         <image name="chicagoFlag" width="195" height="130"/>
         <image name="chicagoFood" width="300" height="168"/>
         <image name="chicagoPlaces" width="288" height="175"/>
+        <image name="crepesSTL" width="1242" height="1242"/>
         <image name="divergent13" width="448" height="700"/>
         <image name="https---blogs-images.forbes.com-anneglusker-files-2018-12-Michelle-Obama-book-cover-shot-e1544143689487-1200x944" width="960" height="755"/>
         <image name="londonHouseRooftop" width="275" height="183"/>
