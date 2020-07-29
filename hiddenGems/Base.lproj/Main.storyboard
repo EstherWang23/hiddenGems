@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,6 +10,10 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="orL-SW-lUf"/>
+                        <viewControllerLayoutGuide type="bottom" id="KzM-bY-FIV"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,7 +28,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -36,11 +38,14 @@
         <scene sceneID="zeG-d9-wGN">
             <objects>
                 <viewController id="8YT-eW-eu6" customClass="foodSF" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JwE-NF-bq1"/>
+                        <viewControllerLayoutGuide type="bottom" id="BiO-3k-IlU"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0Pz-df-pxN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="CpF-EM-gph"/>
                     </view>
                     <navigationItem key="navigationItem" id="BQe-Xh-pSW"/>
                 </viewController>
@@ -52,11 +57,14 @@
         <scene sceneID="g4w-xE-0tf">
             <objects>
                 <viewController id="9vk-Im-aMZ" customClass="popCultureSF" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7th-ty-aeB"/>
+                        <viewControllerLayoutGuide type="bottom" id="D6S-ri-mMg"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kLd-Bz-gi8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="zWQ-9p-gdy"/>
                     </view>
                     <navigationItem key="navigationItem" id="r6m-zd-l1l"/>
                 </viewController>
@@ -68,11 +76,14 @@
         <scene sceneID="n2I-af-DzN">
             <objects>
                 <viewController id="Wgg-h9-aMA" customClass="celebritiesSF" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FQK-2k-jWJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="SG9-cW-CjE"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WQb-QL-sn3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="MR9-qf-m4H"/>
                     </view>
                     <navigationItem key="navigationItem" id="vgc-Z8-hNb"/>
                 </viewController>
@@ -84,11 +95,14 @@
         <scene sceneID="gHr-5E-PHb">
             <objects>
                 <viewController id="aF2-gu-2dc" customClass="muralsSF" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RId-2W-8DE"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZCO-QS-CU6"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="FSb-Vd-Pgv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="L8b-hi-IWP"/>
                     </view>
                     <navigationItem key="navigationItem" id="fj3-na-1bh"/>
                 </viewController>
@@ -100,11 +114,14 @@
         <scene sceneID="gtl-In-AtL">
             <objects>
                 <viewController id="vr4-U5-6i4" customClass="photosSF" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wAS-n4-7FN"/>
+                        <viewControllerLayoutGuide type="bottom" id="fNS-wS-TfS"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="p1H-PK-bJ1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="Nit-LJ-BAh"/>
                     </view>
                     <navigationItem key="navigationItem" id="MPI-L6-VAQ"/>
                 </viewController>
@@ -116,6 +133,10 @@
         <scene sceneID="21H-nk-Qdf">
             <objects>
                 <viewController id="uBu-Wq-AZn" customClass="sanFrancisco" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yj7-no-voh"/>
+                        <viewControllerLayoutGuide type="bottom" id="2W2-az-XNN"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mtA-Wp-iuv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -170,7 +191,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="ID3-tU-9ot"/>
                     </view>
                     <navigationItem key="navigationItem" id="G6e-0J-csJ"/>
                 </viewController>
@@ -182,11 +202,14 @@
         <scene sceneID="QPw-xd-RMP">
             <objects>
                 <viewController id="33N-3J-v71" customClass="placesSF" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aNN-86-9WK"/>
+                        <viewControllerLayoutGuide type="bottom" id="pvL-8N-3JV"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Tov-Kd-MGf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="vQs-KT-Hvr"/>
                     </view>
                     <navigationItem key="navigationItem" id="bmY-m1-Ilz"/>
                 </viewController>
@@ -198,6 +221,10 @@
         <scene sceneID="90r-db-L4W">
             <objects>
                 <viewController id="Jwo-UP-qCE" customClass="california" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7A0-yd-3jR"/>
+                        <viewControllerLayoutGuide type="bottom" id="SA6-Gf-UUH"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Tfo-X2-RBK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -284,7 +311,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="blx-ym-gcg"/>
                     </view>
                     <navigationItem key="navigationItem" id="FZ4-mO-OzL"/>
                 </viewController>
@@ -296,6 +322,10 @@
         <scene sceneID="Xh6-Or-qUD">
             <objects>
                 <viewController id="Fdl-q4-4Cw" customClass="usMap" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zjD-yt-S52"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ij5-3N-gse"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="73S-fn-tdt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -326,7 +356,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="gt0-j3-aDU"/>
                     </view>
                     <navigationItem key="navigationItem" id="zBb-7u-5lY"/>
                 </viewController>
@@ -338,6 +367,10 @@
         <scene sceneID="IUQ-qt-BR4">
             <objects>
                 <viewController id="3Sb-p3-g95" customClass="missouri" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XAW-Hw-u8t"/>
+                        <viewControllerLayoutGuide type="bottom" id="UmT-rT-v7J"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kz5-im-J47">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -352,7 +385,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="9eL-5G-RNJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="oc3-eG-Otn"/>
                 </viewController>
@@ -364,11 +396,14 @@
         <scene sceneID="rxA-aH-ZMG">
             <objects>
                 <viewController id="Asj-xr-gsh" customClass="foodStl" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l5l-rA-iIE"/>
+                        <viewControllerLayoutGuide type="bottom" id="JdN-xV-LYL"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="A3j-ky-xEB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="7tV-XI-KlH"/>
                     </view>
                     <navigationItem key="navigationItem" id="z8W-hr-IO1"/>
                 </viewController>
@@ -380,6 +415,10 @@
         <scene sceneID="vgD-3S-XJO">
             <objects>
                 <viewController id="a8M-Qt-CnR" customClass="stLouis" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FLe-KB-FV8"/>
+                        <viewControllerLayoutGuide type="bottom" id="PUW-DA-b0r"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ouf-IQ-zgD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -446,7 +485,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84903186559999999" green="0.44093596940000002" blue="0.32937851550000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <viewLayoutGuide key="safeArea" id="6Tb-De-8IW"/>
                     </view>
                     <navigationItem key="navigationItem" id="22V-Jg-Hiv"/>
                 </viewController>
@@ -458,11 +496,14 @@
         <scene sceneID="heC-an-dAc">
             <objects>
                 <viewController id="4US-IK-EQs" customClass="celebritiesStl" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WdO-Is-BDt"/>
+                        <viewControllerLayoutGuide type="bottom" id="baT-ea-OLZ"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TgF-Jq-tf9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="lLQ-7Y-MtS"/>
                     </view>
                     <navigationItem key="navigationItem" id="JqF-97-BNH"/>
                 </viewController>
@@ -474,11 +515,14 @@
         <scene sceneID="DD3-R2-GqC">
             <objects>
                 <viewController id="EQL-tJ-Ux2" customClass="placesStl" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jZJ-DR-vBm"/>
+                        <viewControllerLayoutGuide type="bottom" id="5sA-PW-rkI"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="VhZ-Zm-2bQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="3XN-DP-cCn"/>
                     </view>
                     <navigationItem key="navigationItem" id="pYx-g1-6n5"/>
                 </viewController>
@@ -490,11 +534,14 @@
         <scene sceneID="gJq-xj-8ZZ">
             <objects>
                 <viewController id="cf6-vU-ecs" customClass="popCultureStl" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gpw-4U-smQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="dug-5e-410"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Yir-sv-9i9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="ZhP-uT-heu"/>
                     </view>
                     <navigationItem key="navigationItem" id="AMH-iZ-e9Y"/>
                 </viewController>
@@ -506,6 +553,10 @@
         <scene sceneID="xUX-jl-JIU">
             <objects>
                 <viewController id="eRc-ED-hnj" customClass="illinois" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WeW-Ee-XEW"/>
+                        <viewControllerLayoutGuide type="bottom" id="cgr-Q3-6Sy"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2FW-aR-uFJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -520,7 +571,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="cze-Sf-YRK"/>
                     </view>
                     <navigationItem key="navigationItem" id="8vl-yL-rK2"/>
                 </viewController>
@@ -532,6 +582,10 @@
         <scene sceneID="yEK-0h-de0">
             <objects>
                 <viewController id="Wc0-T0-RyN" customClass="chicago" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qvp-xh-SLl"/>
+                        <viewControllerLayoutGuide type="bottom" id="DMV-Hb-5Yw"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tOb-aC-Fmu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -626,7 +680,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="QoX-Hm-Ppl"/>
                     </view>
                     <navigationItem key="navigationItem" id="F5X-Ba-uek"/>
                 </viewController>
@@ -638,6 +691,10 @@
         <scene sceneID="80x-aY-LXR">
             <objects>
                 <viewController id="cc9-Ge-Y6c" customClass="celebritiesCHI" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NDd-sd-t9V"/>
+                        <viewControllerLayoutGuide type="bottom" id="JM5-kk-Y1S"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hIn-v5-mxw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -712,7 +769,6 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.70196078429999997" green="0.86666666670000003" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
-                        <viewLayoutGuide key="safeArea" id="EaH-iy-VsB"/>
                     </view>
                     <navigationItem key="navigationItem" id="dxf-t7-Zmm"/>
                 </viewController>
@@ -724,6 +780,10 @@
         <scene sceneID="zgg-rb-zTf">
             <objects>
                 <viewController id="Ioy-xB-Ldt" customClass="foodCHI" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GJY-v5-lWd"/>
+                        <viewControllerLayoutGuide type="bottom" id="j5n-oB-HZk"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Aw9-ie-eFJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -870,7 +930,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.70196078429999997" green="0.86666666670000003" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
-                        <viewLayoutGuide key="safeArea" id="csp-sT-lfg"/>
                     </view>
                     <navigationItem key="navigationItem" id="405-Aw-9Hl"/>
                 </viewController>
@@ -882,6 +941,10 @@
         <scene sceneID="SYc-sE-bpS">
             <objects>
                 <viewController id="LsT-VC-5MF" customClass="popCultureCHI" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hyS-tW-xVF"/>
+                        <viewControllerLayoutGuide type="bottom" id="gqi-t0-Qzx"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RLJ-Im-fru">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -903,7 +966,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.70196078429999997" green="0.86666666670000003" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
-                        <viewLayoutGuide key="safeArea" id="5dr-yd-WFB"/>
                     </view>
                     <navigationItem key="navigationItem" id="03g-LX-qBU"/>
                 </viewController>
@@ -915,6 +977,10 @@
         <scene sceneID="ZOV-mS-wqL">
             <objects>
                 <viewController id="lIG-oA-vAv" customClass="placesCHI" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kOt-zI-MUS"/>
+                        <viewControllerLayoutGuide type="bottom" id="e9x-MV-YC0"/>
+                    </layoutGuides>
                     <view key="view" clipsSubviews="YES" contentMode="center" id="OiP-lh-Byi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -946,28 +1012,6 @@
                                 <rect key="frame" x="207" y="380" width="176" height="157"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MtU-g4-Old">
-                                <rect key="frame" x="22" y="196" width="160" height="188"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">The MCA is an innovative and compelling center of contemporary art where the public can experience the work and ideas of living artists, and understand the historical, social, and cultural context of the art of our time.</string>
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="13.5" name="Helvetica"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.058823529411764705" green="0.058823529411764705" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="214-my-WdE">
                                 <rect key="frame" x="22" y="161" width="160" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -983,20 +1027,27 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MA8-bN-PZT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MA8-bN-PZT">
                                 <rect key="frame" x="196" y="196" width="197" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment>
+                                        <string key="content">The main body of the park consists of five stepped, aerating, circular fountains of varying circumferences, connected by diagonal walks. Along with the Art Institute of Chicago’s South Garden and Navy Pier, Olive Park is one of three Kiley landscapes in Chicago.</string>
                                         <attributes>
-                                            <color key="NSColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="17" name="Verdana"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSBackgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="Verdana"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oO0-R6-xao">
                                 <rect key="frame" x="22" y="531" width="160" height="27"/>
@@ -1028,31 +1079,44 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haE-Z3-dXd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haE-Z3-dXd">
                                 <rect key="frame" x="196" y="566" width="198" height="242"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment>
+                                        <string key="content">Imagine sitting down to enjoy your evening meal while taking in all the sights and sounds of the city from above. The glowing lights and hustle and bustle down below create an atmosphere unlike any other. London House is one of the best rooftop bars in Chicago and offer a number of options from which you can choose.</string>
                                         <attributes>
-                                            <color key="NSColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="17" name="Verdana"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13.5" name="Verdana"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="17" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc4-o7-PyK">
-                                <rect key="frame" x="22" y="566" width="160" height="242"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc4-o7-PyK">
+                                <rect key="frame" x="22" y="194" width="160" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment>
+                                        <string key="content">It brings together arts, history, and design trails for bikers, runners, and walkers, event spaces, alternative transportation avenues, and green, open space for neighbors, Chicagoans, and the world</string>
                                         <attributes>
-                                            <color key="NSColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="17" name="Verdana"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12.5" name="Verdana"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="18" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.31372549019607843" green="0.31372549019607843" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -1062,9 +1126,30 @@
                                 <rect key="frame" x="206" y="0.0" width="176" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MtU-g4-Old">
+                                <rect key="frame" x="22" y="565" width="160" height="243"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">The MCA is an innovative and compelling center of contemporary art where the public can experience the work and ideas of living artists, and understand the historical, social, and cultural context of the art of our time.</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="13" name="Verdana"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.058823529411764705" green="0.058823529411764705" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.70196078429999997" green="0.86666666670000003" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
-                        <viewLayoutGuide key="safeArea" id="jsC-Ct-F2O"/>
                     </view>
                     <navigationItem key="navigationItem" id="fbc-Wz-z8A"/>
                 </viewController>
