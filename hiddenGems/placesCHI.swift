@@ -15,9 +15,6 @@ class placesCHI: UIViewController {
 
         // Do any additional setup after loading the view.
     
-    
-        weak var MCALabel: UILabel!
-    MCALabel.numberOfLines = 0 // Unlimited number of lines
     }
     /*
     // MARK: - Navigation
