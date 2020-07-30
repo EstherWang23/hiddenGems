@@ -13,7 +13,6 @@
 		0430D52024CF69F600A91F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0430D51E24CF69F600A91F89 /* Main.storyboard */; };
 		0430D52224CF69FB00A91F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0430D52124CF69FB00A91F89 /* Assets.xcassets */; };
 		0430D52524CF69FB00A91F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0430D52324CF69FB00A91F89 /* LaunchScreen.storyboard */; };
-		0443632E24D32A5A00D543AB /* hidden gems Logo (5).png in Resources */ = {isa = PBXBuildFile; fileRef = 0443632D24D32A5A00D543AB /* hidden gems Logo (5).png */; };
 		0443633024D32AC900D543AB /* hidden gems Logo (6).png in Resources */ = {isa = PBXBuildFile; fileRef = 0443632F24D32AC900D543AB /* hidden gems Logo (6).png */; };
 		04F024F224D08D350081F1C7 /* usMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F024F124D08D350081F1C7 /* usMap.swift */; };
 		04F024F424D08EC90081F1C7 /* california.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F024F324D08EC90081F1C7 /* california.swift */; };
@@ -48,7 +47,6 @@
 		0430D52124CF69FB00A91F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0430D52424CF69FB00A91F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0430D52624CF69FB00A91F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0443632D24D32A5A00D543AB /* hidden gems Logo (5).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hidden gems Logo (5).png"; path = "../../../../../Downloads/hidden gems Logo (5).png"; sourceTree = "<group>"; };
 		0443632F24D32AC900D543AB /* hidden gems Logo (6).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hidden gems Logo (6).png"; path = "../../../../../Downloads/hidden gems Logo (6).png"; sourceTree = "<group>"; };
 		04F024F124D08D350081F1C7 /* usMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usMap.swift; sourceTree = "<group>"; };
 		04F024F324D08EC90081F1C7 /* california.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = california.swift; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 				0430D52324CF69FB00A91F89 /* LaunchScreen.storyboard */,
 				0430D52624CF69FB00A91F89 /* Info.plist */,
 				0443632F24D32AC900D543AB /* hidden gems Logo (6).png */,
-				0443632D24D32A5A00D543AB /* hidden gems Logo (5).png */,
 			);
 			path = hiddenGems;
 			sourceTree = "<group>";
@@ -198,7 +195,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0430D52524CF69FB00A91F89 /* LaunchScreen.storyboard in Resources */,
-				0443632E24D32A5A00D543AB /* hidden gems Logo (5).png in Resources */,
 				0443633024D32AC900D543AB /* hidden gems Logo (6).png in Resources */,
 				0430D52224CF69FB00A91F89 /* Assets.xcassets in Resources */,
 				0430D52024CF69F600A91F89 /* Main.storyboard in Resources */,
