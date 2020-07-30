@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -1191,6 +1191,60 @@
                                                 <color key="textColor" red="0.95452135800000004" green="0.72989296910000001" blue="0.2547436059" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Saint Louis Bread Company" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1I-ck-pZ7">
+                                                <rect key="frame" x="168" y="217" width="212" height="19"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.99349790810000005" green="0.72254246470000005" blue="0.018680151549999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="16"/>
+                                                <color key="textColor" red="0.042305491860000002" green="0.26130551099999999" blue="0.34118723870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BAGELS" translatesAutoresizingMaskIntoConstraints="NO" id="gZI-NY-NDM">
+                                                <rect key="frame" x="25" y="212" width="129" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fitzs" translatesAutoresizingMaskIntoConstraints="NO" id="F2h-Vp-eWL">
+                                                <rect key="frame" x="261" y="372" width="131" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gi0-9G-d8k">
+                                                <rect key="frame" x="168" y="241" width="216" height="105"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">Obviously bread sliced is the way to go when it comes to bagels. Easy, convenient, mess free. Bread sliced bagels at Bread Co is just about the most St. Louis thing you'll ever see. </string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="13.5" name="AmericanTypewriter"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANI-4G-wqu">
+                                                <rect key="frame" x="9" y="393" width="233" height="121"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">Fitz's is a St. Louis staple. Birthdays, team dinners, night out with friends, Fitz's is there for it all.  Their huge milkshakes and toasted ravioli are both must-tries! And of course, Fitz's brand root beer.</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="13.5" name="AmericanTypewriter"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fitz's" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lS2-Ju-ohA">
+                                                <rect key="frame" x="200" y="375" width="41" height="19"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.99349790810000005" green="0.72254246470000005" blue="0.018680151549999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="16"/>
+                                                <color key="textColor" red="0.042305491860000002" green="0.26130551099999999" blue="0.34118723870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.042305491860000002" green="0.26130551099999999" blue="0.34118723870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -1222,7 +1276,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UdE-cx-2Yw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1013" y="2304"/>
+            <point key="canvasLocation" x="1011.5942028985507" y="2303.5714285714284"/>
         </scene>
         <!--St Louis-->
         <scene sceneID="vgD-3S-XJO">
@@ -2071,6 +2125,7 @@
         <image name="11835526" width="240" height="320"/>
         <image name="5ec2038019182438795d88b3-1" width="320" height="240"/>
         <image name="606" width="1400" height="1400"/>
+        <image name="BAGELS" width="569" height="569"/>
         <image name="CTAPIC.jpc" width="2048" height="2048"/>
         <image name="Cole Street" width="1213" height="1204"/>
         <image name="IMG_3047" width="749" height="499"/>
@@ -2115,6 +2170,7 @@
         <image name="crepesSTL" width="1242" height="1242"/>
         <image name="divergent13" width="448" height="700"/>
         <image name="e5bacae9990f2c2ee8e003a8e6953f52" width="480" height="360"/>
+        <image name="fitzs" width="720" height="720"/>
         <image name="https---blogs-images.forbes.com-anneglusker-files-2018-12-Michelle-Obama-book-cover-shot-e1544143689487-1200x944" width="960" height="755"/>
         <image name="karlieSTL" width="1144" height="1144"/>
         <image name="londonHouseRooftop" width="275" height="183"/>
