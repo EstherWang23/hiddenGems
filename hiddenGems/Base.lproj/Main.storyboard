@@ -1131,20 +1131,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cof-SE-qpm">
-                                <rect key="frame" x="50" y="770" width="59" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="St. Louis"/>
-                                <connections>
-                                    <segue destination="a8M-Qt-CnR" kind="show" id="U6d-Hb-Zt8"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Dn-fk-kV2">
-                                <rect key="frame" x="0.0" y="99" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="missouri" translatesAutoresizingMaskIntoConstraints="NO" id="1Dn-fk-kV2">
+                                <rect key="frame" x="0.0" y="126" width="414" height="448"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpp-QS-mEu">
+                                <rect key="frame" x="-89" y="335" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="St. Louis"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ix-pb-cRc">
+                                <rect key="frame" x="323" y="258" width="71" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <color key="tintColor" red="0.042305491860000002" green="0.26130551099999999" blue="0.34118723870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="St. Louis">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="a8M-Qt-CnR" kind="show" id="js9-Nj-ewr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AeX-H3-Qj2">
+                                <rect key="frame" x="281" y="308" width="57" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="location-pin-curvy-solid"/>
+                                <connections>
+                                    <segue destination="a8M-Qt-CnR" kind="show" id="Q86-8p-QVC"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.94916790719999999" green="0.97252529860000003" blue="0.97255009410000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="oc3-eG-Otn"/>
                 </viewController>
@@ -2285,6 +2303,9 @@
             <point key="canvasLocation" x="2582.608695652174" y="-306.02678571428572"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="js9-Nj-ewr"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="11835526" width="240" height="320"/>
         <image name="5ec2038019182438795d88b3-1" width="320" height="240"/>
@@ -2339,10 +2360,12 @@
         <image name="fitzs" width="720" height="720"/>
         <image name="https---blogs-images.forbes.com-anneglusker-files-2018-12-Michelle-Obama-book-cover-shot-e1544143689487-1200x944" width="960" height="755"/>
         <image name="karlieSTL" width="1144" height="1144"/>
+        <image name="location-pin-curvy-solid" width="256" height="256"/>
         <image name="londonHouseRooftop" width="275" height="183"/>
         <image name="maxresdefault" width="1280" height="720"/>
         <image name="mcaMuseum" width="275" height="183"/>
         <image name="michelleObama1" width="254" height="198"/>
+        <image name="missouri" width="1376" height="1548"/>
         <image name="pfcMiltonOlivePark" width="800" height="600"/>
         <image name="sei_23068178-1481-e1543674907164" width="644" height="523"/>
         <image name="serendipity" width="661" height="661"/>
