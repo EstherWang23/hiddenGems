@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -487,7 +487,7 @@
                         <viewControllerLayoutGuide type="bottom" id="JdN-xV-LYL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="A3j-ky-xEB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     </view>
@@ -495,7 +495,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UdE-cx-2Yw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-810" y="2392"/>
+            <point key="canvasLocation" x="925" y="2425"/>
         </scene>
         <!--St Louis-->
         <scene sceneID="vgD-3S-XJO">
@@ -518,9 +518,6 @@
                                 <rect key="frame" x="259" y="451" width="105" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Famous People"/>
-                                <connections>
-                                    <segue destination="4US-IK-EQs" kind="show" id="DZO-jb-wrg"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9688" translatesAutoresizingMaskIntoConstraints="NO" id="CO9-yw-iGo">
                                 <rect key="frame" x="15" y="141" width="186" height="185"/>
@@ -539,15 +536,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZeE-Zw-nGk">
-                                <rect key="frame" x="19" y="327" width="178" height="45"/>
+                                <rect key="frame" x="17" y="327" width="183" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="28"/>
                                 <color key="tintColor" red="0.11254084860000001" green="0.25747254489999999" blue="0.33334347609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="       Places       ">
+                                <state key="normal" title="       places       ">
                                     <color key="titleColor" red="0.11657591909999999" green="0.26524043079999998" blue="0.3451086283" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="EQL-tJ-Ux2" kind="show" id="Aem-F3-a0u"/>
+                                    <segue destination="EQL-tJ-Ux2" kind="show" id="eYK-wF-a12"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyQ-iW-rO9">
+                                <rect key="frame" x="236" y="662" width="178" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="28"/>
+                                <color key="tintColor" red="0.11254084860000001" green="0.25747254489999999" blue="0.33334347609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="celebs">
+                                    <color key="titleColor" red="0.11657591909999999" green="0.26524043079999998" blue="0.3451086283" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4US-IK-EQs" kind="show" id="JH7-br-Gz4"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Lou!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C79-Yk-88H">
@@ -562,11 +571,23 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="28"/>
                                 <color key="tintColor" red="0.11254084860000001" green="0.25747254489999999" blue="0.33334347609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="        Food        ">
+                                <state key="normal" title="        food        ">
                                     <color key="titleColor" red="0.11657591909999999" green="0.26524043079999998" blue="0.3451086283" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="cf6-vU-ecs" kind="show" id="Yh2-w4-BOa"/>
+                                    <segue destination="Asj-xr-gsh" kind="show" id="ihH-Px-BGO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVG-6v-KgJ">
+                                <rect key="frame" x="-3" y="651" width="252" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="28"/>
+                                <color key="tintColor" red="0.11254084860000001" green="0.25747254489999999" blue="0.33334347609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="       pop culture       ">
+                                    <color key="titleColor" red="0.11657591909999999" green="0.26524043079999998" blue="0.3451086283" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cf6-vU-ecs" kind="show" id="01k-ge-yU5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -595,7 +616,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tpu-VY-3U5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-439" y="3148"/>
+            <point key="canvasLocation" x="575" y="3194"/>
         </scene>
         <!--Places Stl-->
         <scene sceneID="DD3-R2-GqC">
@@ -614,7 +635,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6RM-v4-4wY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="680" y="3148"/>
+            <point key="canvasLocation" x="-693" y="2506"/>
         </scene>
         <!--Pop Culture Stl-->
         <scene sceneID="gJq-xj-8ZZ">
@@ -633,7 +654,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WYv-Kl-PMg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1123" y="2392"/>
+            <point key="canvasLocation" x="-400" y="3248"/>
         </scene>
         <!--Illinois-->
         <scene sceneID="xUX-jl-JIU">
