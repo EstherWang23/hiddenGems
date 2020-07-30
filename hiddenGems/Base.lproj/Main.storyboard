@@ -514,6 +514,33 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ehM-Ow-E52">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1446"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="st-louis-ms-flag" translatesAutoresizingMaskIntoConstraints="NO" id="CZ5-Ia-rjk">
+                                                <rect key="frame" x="61" y="0.0" width="292" height="174"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="STL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m6A-GU-3GH">
+                                                <rect key="frame" x="213" y="29" width="72" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="34"/>
+                                                <color key="textColor" red="0.95452135800000004" green="0.72989296910000001" blue="0.2547436059" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FOOD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUz-xK-5AM">
+                                                <rect key="frame" x="200" y="107" width="97" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="34"/>
+                                                <color key="textColor" red="0.95452135800000004" green="0.72989296910000001" blue="0.2547436059" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="click on the pictures for the restaurant website!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ff7-1V-4Ja">
+                                                <rect key="frame" x="59" y="166" width="297" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="13"/>
+                                                <color key="textColor" red="0.95452135800000004" green="0.72989296910000001" blue="0.2547436059" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.042305491860000002" green="0.26130551099999999" blue="0.34118723870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="1ve-Ad-nrM"/>
@@ -1414,6 +1441,7 @@
         <image name="michelleObama1" width="254" height="198"/>
         <image name="pfcMiltonOlivePark" width="800" height="600"/>
         <image name="sei_23068178-1481-e1543674907164" width="644" height="523"/>
+        <image name="st-louis-ms-flag" width="520" height="416"/>
         <image name="stlFlag" width="853" height="853"/>
         <image name="subwayCar" width="914" height="246"/>
         <image name="tay 1" width="1024" height="1024"/>
