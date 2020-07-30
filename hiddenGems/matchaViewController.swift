@@ -39,5 +39,50 @@ class matchaViewController: UIViewController {
     @IBAction func link(_ sender: Any) {
         let url = URL (string: "https://www.google.com/maps/place/Matcha+Cafe+Maiko/@37.7426141,-122.548592,12.36z/data=!4m5!3m4!1s0x808580b8fc4e80dd:0x2d2b96f352c6134a!8m2!3d37.7849544!4d-122.4317274")!;         UIApplication.shared.open(url)
     }
+    @IBOutlet weak var matchaImage: UIImageView!
+   var matcha = ["matcha3"]
+    @IBOutlet weak var soft: UISegmentedControl!
+    @IBOutlet weak var tea: UISegmentedControl!
+    @IBOutlet weak var latte: UISegmentedControl!
+    @IBAction func softs(_ sender: Any) {
+        switch soft.selectedSegmentIndex {
+        case 0:
+            matchaImage.image = UIImage(named:"")
+        case 1:
+            matchaImage.image = UIImage(named:"matcha3")
+        default:
+            break
+        }
+    }
+    @IBAction func teas(_ sender: Any) {
+        switch tea.selectedSegmentIndex {
+        case 0:
+            matchaImage.image = UIImage(named:"")
+        case 1:
+            matchaImage.image = UIImage(named: "matcha2")
+        default:
+            break
+        }
+    }
+    @IBAction func lattes(_ sender: Any) {
+        switch latte.selectedSegmentIndex{
+        case 0:
+            matchaImage.image = UIImage(named: "")
+        case 1:
+            matchaImage.image = UIImage(named: "matcha1")
+        default:
+            break
+        }
+    }
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var rec: UITextField!
+    
+    @IBAction func enterbutton(_ sender: Any) {
+        if rec.text == "chickennoodl;esuopo"{
+            label.text = "you aint supposed to see this"
+        } else {
+        label.text = "thanks!"
+    }
 }
 
+}
