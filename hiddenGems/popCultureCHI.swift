@@ -10,6 +10,11 @@ import UIKit
 
 class popCultureCHI: UIViewController {
 
+    
+    @IBAction func divergentPic(_ sender: Any) {
+        let url = URL (string: "https://en.wikipedia.org/wiki/Divergent_(film)")!
+        UIApplication.shared.open(url)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
