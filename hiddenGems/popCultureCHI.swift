@@ -10,7 +10,15 @@ import UIKit
 
 class popCultureCHI: UIViewController {
 
+    @IBAction func homeAlonePic(_ sender: Any) {
+        let url = URL (string: "https://en.wikipedia.org/wiki/Home_Alone")!
+        UIApplication.shared.open(url)
+    }
     
+    @IBAction func shakeItUpPic(_ sender: Any) {
+        let url = URL (string: "https://en.wikipedia.org/wiki/Shake_It_Up_(American_TV_series)")!
+        UIApplication.shared.open(url)
+    }
     @IBAction func divergentPic(_ sender: Any) {
         let url = URL (string: "https://en.wikipedia.org/wiki/Divergent_(film)")!
         UIApplication.shared.open(url)

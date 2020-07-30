@@ -9,7 +9,19 @@
 import UIKit
 
 class celebritiesCHI: UIViewController {
-
+    @IBAction func chancePic(_ sender: Any) {
+        let url = URL (string: "https://en.wikipedia.org/wiki/Chance_the_Rapper")!
+        UIApplication.shared.open(url)
+    }
+    
+    @IBAction func jordanPic(_ sender: Any) {
+        let url = URL (string: "https://en.wikipedia.org/wiki/Michael_Jordan")!
+               UIApplication.shared.open(url)
+    }
+    @IBAction func michellePic(_ sender: Any) {
+        let url = URL (string: "https://en.wikipedia.org/wiki/Michelle_Obama")!
+        UIApplication.shared.open(url)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
