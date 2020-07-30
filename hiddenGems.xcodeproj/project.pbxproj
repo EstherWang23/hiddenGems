@@ -34,6 +34,7 @@
 		04F0251624D0ABB60081F1C7 /* foodCHI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0251524D0ABB60081F1C7 /* foodCHI.swift */; };
 		04F0251824D0ABC50081F1C7 /* popCultureCHI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0251724D0ABC50081F1C7 /* popCultureCHI.swift */; };
 		04F0251A24D0ABD60081F1C7 /* celebritiesCHI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0251924D0ABD60081F1C7 /* celebritiesCHI.swift */; };
+		DA8074AD24D28E5300E3E704 /* matchaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8074AC24D28E5300E3E704 /* matchaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		04F0251524D0ABB60081F1C7 /* foodCHI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodCHI.swift; sourceTree = "<group>"; };
 		04F0251724D0ABC50081F1C7 /* popCultureCHI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popCultureCHI.swift; sourceTree = "<group>"; };
 		04F0251924D0ABD60081F1C7 /* celebritiesCHI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celebritiesCHI.swift; sourceTree = "<group>"; };
+		DA8074AC24D28E5300E3E704 /* matchaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matchaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				0430D51824CF69F600A91F89 /* AppDelegate.swift */,
 				0430D51A24CF69F600A91F89 /* SceneDelegate.swift */,
 				0430D51C24CF69F600A91F89 /* ViewController.swift */,
+				DA8074AC24D28E5300E3E704 /* matchaViewController.swift */,
 				04F024F124D08D350081F1C7 /* usMap.swift */,
 				04F024F724D08EFA0081F1C7 /* illinois.swift */,
 				04F024F924D093620081F1C7 /* chicago.swift */,
@@ -221,6 +224,7 @@
 				04F024FE24D0937D0081F1C7 /* sanFrancisco.swift in Sources */,
 				04F024FA24D093620081F1C7 /* chicago.swift in Sources */,
 				0430D51B24CF69F600A91F89 /* SceneDelegate.swift in Sources */,
+				DA8074AD24D28E5300E3E704 /* matchaViewController.swift in Sources */,
 				04F0250E24D0A88E0081F1C7 /* foodSF.swift in Sources */,
 				04F0251824D0ABC50081F1C7 /* popCultureCHI.swift in Sources */,
 				04F0251A24D0ABD60081F1C7 /* celebritiesCHI.swift in Sources */,
