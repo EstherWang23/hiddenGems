@@ -14,9 +14,7 @@ class celebritiesCHI: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
     
-
     /*
     // MARK: - Navigation
 
@@ -28,4 +26,5 @@ class celebritiesCHI: UIViewController {
     */
 //chicago
     //hello
+}
 }
