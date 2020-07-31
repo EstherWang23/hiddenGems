@@ -34,6 +34,7 @@
 		04F0251624D0ABB60081F1C7 /* foodCHI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0251524D0ABB60081F1C7 /* foodCHI.swift */; };
 		04F0251824D0ABC50081F1C7 /* popCultureCHI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0251724D0ABC50081F1C7 /* popCultureCHI.swift */; };
 		04F0251A24D0ABD60081F1C7 /* celebritiesCHI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0251924D0ABD60081F1C7 /* celebritiesCHI.swift */; };
+		DA7D136824D3BA07004A5CF6 /* parrotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D136724D3BA07004A5CF6 /* parrotsViewController.swift */; };
 		DA8074AD24D28E5300E3E704 /* matchaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8074AC24D28E5300E3E704 /* matchaViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		04F0251524D0ABB60081F1C7 /* foodCHI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodCHI.swift; sourceTree = "<group>"; };
 		04F0251724D0ABC50081F1C7 /* popCultureCHI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popCultureCHI.swift; sourceTree = "<group>"; };
 		04F0251924D0ABD60081F1C7 /* celebritiesCHI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celebritiesCHI.swift; sourceTree = "<group>"; };
+		DA7D136724D3BA07004A5CF6 /* parrotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parrotsViewController.swift; sourceTree = "<group>"; };
 		DA8074AC24D28E5300E3E704 /* matchaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matchaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 				04F0250B24D0A8830081F1C7 /* photosSF.swift */,
 				04F0250924D0A8770081F1C7 /* placesSF.swift */,
 				04F0250724D0A8640081F1C7 /* popCultureSF.swift */,
+				DA7D136724D3BA07004A5CF6 /* parrotsViewController.swift */,
 				0430D51E24CF69F600A91F89 /* Main.storyboard */,
 				0430D52124CF69FB00A91F89 /* Assets.xcassets */,
 				0430D52324CF69FB00A91F89 /* LaunchScreen.storyboard */,
@@ -220,6 +223,7 @@
 				04F0250424D097980081F1C7 /* celebritiesStl.swift in Sources */,
 				04F0250A24D0A8770081F1C7 /* placesSF.swift in Sources */,
 				04F024F824D08EFA0081F1C7 /* illinois.swift in Sources */,
+				DA7D136824D3BA07004A5CF6 /* parrotsViewController.swift in Sources */,
 				04F0251224D0AB470081F1C7 /* celebritiesSF.swift in Sources */,
 				04F024FE24D0937D0081F1C7 /* sanFrancisco.swift in Sources */,
 				04F024FA24D093620081F1C7 /* chicago.swift in Sources */,

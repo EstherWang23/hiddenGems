@@ -190,18 +190,26 @@
                                 <color key="backgroundColor" red="0.87633598180000005" green="0.79031260560000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FI0-h7-xhb">
-                                <rect key="frame" x="189" y="757" width="39" height="30"/>
+                                <rect key="frame" x="189" y="757" width="40" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="enter">
+                                <state key="normal" title="Enter">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="enterbutton:" destination="2sN-pm-B6J" eventType="touchUpInside" id="zBX-x5-wHO"/>
+                                    <action selector="enterbuttonx:" destination="2sN-pm-B6J" eventType="touchUpInside" id="seZ-MB-BhY"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1h-gG-R0F">
                                 <rect key="frame" x="187" y="779" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(                             )" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogz-Kk-CQV">
+                                <rect key="frame" x="133" y="779" width="151" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -214,6 +222,7 @@
                     <connections>
                         <outlet property="imageViewer" destination="cn3-zB-Geg" id="5as-Ch-FpL"/>
                         <outlet property="label" destination="W1h-gG-R0F" id="Rgo-V3-DqV"/>
+                        <outlet property="labelel" destination="ogz-Kk-CQV" id="Au9-Jx-8Bp"/>
                         <outlet property="latte" destination="JOR-oY-7Y7" id="SP6-h8-Pwf"/>
                         <outlet property="matchaImage" destination="Y4S-ze-wkl" id="g6S-cM-xyE"/>
                         <outlet property="rec" destination="15Z-Yn-8zs" id="iVe-24-niL"/>
@@ -938,14 +947,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puA-U4-b1X">
-                                <rect key="frame" x="259" y="653" width="81" height="30"/>
+                                <rect key="frame" x="259" y="653" width="81" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="Learn More">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="lyy-iT-kDP" kind="show" id="eCz-zX-LQw"/>
+                                    <segue destination="qHU-mt-vs7" kind="show" id="bfT-xc-MX2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -957,24 +966,102 @@
             </objects>
             <point key="canvasLocation" x="-2146.376811594203" y="-300"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="gu4-eQ-jUP">
+        <!--Parrots View Controller-->
+        <scene sceneID="l1K-Ke-sUZ">
             <objects>
-                <viewController id="lyy-iT-kDP" sceneMemberID="viewController">
+                <viewController id="qHU-mt-vs7" customClass="parrotsViewController" customModule="hiddenGems" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ave-Dw-SOd"/>
-                        <viewControllerLayoutGuide type="bottom" id="exg-40-zvi"/>
+                        <viewControllerLayoutGuide type="top" id="jVC-OX-Cz4"/>
+                        <viewControllerLayoutGuide type="bottom" id="AZ3-hu-hj4"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="6O3-1R-PN0">
+                    <view key="view" contentMode="scaleToFill" id="G1o-3V-WBb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.76465598887566077" blue="0.73564777294206274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parrots of Telegraph Hill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKv-nw-tQ7">
+                                <rect key="frame" x="15" y="20" width="385" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[ recommended by 189,234 users ]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4Q-Ir-eLo">
+                                <rect key="frame" x="73" y="60" width="269" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree" translatesAutoresizingMaskIntoConstraints="NO" id="4p6-1C-rv7">
+                                <rect key="frame" x="13" y="98" width="233" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.89105479921636987" green="0.89200305725350826" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CR0-wt-h9k">
+                                <rect key="frame" x="13" y="98" width="233" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="boop:" destination="qHU-mt-vs7" eventType="touchUpInside" id="Hnm-T4-aKT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTX-Sb-Q5C">
+                                <rect key="frame" x="18" y="391" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="telegraph hill" translatesAutoresizingMaskIntoConstraints="NO" id="xqq-y0-laZ">
+                                <rect key="frame" x="254" y="147" width="149" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idM-D7-UHN">
+                                <rect key="frame" x="294" y="280" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUw-OS-agC">
+                                <rect key="frame" x="297" y="280" width="63" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhQ-I4-vN3">
+                                <rect key="frame" x="254" y="154" width="149" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="url:" destination="qHU-mt-vs7" eventType="touchUpInside" id="d1q-wt-c3b"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ABOUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jJ-bh-ZSS">
+                                <rect key="frame" x="13" y="345" width="77" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3k-3O-7Df">
+                                <rect key="frame" x="13" y="370" width="287" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">It is said that in the 1990s, a pair of cherry heade conures (a species of parrot) escaped and began the population in Telegraph Hill. Today, there is said to be at least 200 birds. The group can be seen in the whole city, including their original home, Telegraph Hill.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.76465598889999997" blue="0.73564777290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Cfz-F6-ajC"/>
+                    <navigationItem key="navigationItem" id="ea1-wg-NaK"/>
+                    <connections>
+                        <outlet property="parrot" destination="4p6-1C-rv7" id="jik-V2-xgI"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ADO-kF-bU5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9gL-L2-kUf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1375" y="-732"/>
+            <point key="canvasLocation" x="-1423.1884057971015" y="-676.33928571428567"/>
         </scene>
         <!--California-->
         <scene sceneID="90r-db-L4W">
@@ -2667,5 +2754,7 @@
         <image name="tacobuddha" width="550" height="550"/>
         <image name="tay 1" width="1024" height="1024"/>
         <image name="teamo" width="237" height="213"/>
+        <image name="telegraph hill" width="913" height="757"/>
+        <image name="tree" width="1226" height="1195"/>
     </resources>
 </document>

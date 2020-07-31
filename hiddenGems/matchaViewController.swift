@@ -77,12 +77,20 @@ class matchaViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var rec: UITextField!
     
-    @IBAction func enterbutton(_ sender: Any) {
-        if rec.text == "chickennoodl;esuopo"{
-            label.text = "you aint supposed to see this"
-        } else {
-        label.text = "thanks!"
+    @IBAction func enterbutton(_ sender: Any){
+        if let sampleText = rec.text {
+        labelel.text = sampleText
     }
 }
 
+    @IBOutlet weak var labelel: UILabel!
+    @IBAction func enterbuttonx(_ sender: Any) {
+        if labelel.text == "yoyoyo"{
+            labelel.text = "dont see this"
+        }else{
+            labelel.text = "thank you!!"
+        }
+    }
 }
+
+
