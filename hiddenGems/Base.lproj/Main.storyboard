@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -19,22 +19,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2f-64-XGE">
-                                <rect key="frame" x="0.0" y="615" width="414" height="145"/>
+                                <rect key="frame" x="68" y="740" width="278" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="38"/>
-                                <state key="normal" title="Find My City!">
+                                <state key="normal" backgroundImage="find">
                                     <color key="titleColor" red="1" green="0.85328205573727067" blue="0.22671432355361487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="Fdl-q4-4Cw" kind="show" id="Ugy-qW-t67"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hidden gems Logo (6)" translatesAutoresizingMaskIntoConstraints="NO" id="FcL-fc-TYs">
-                                <rect key="frame" x="20" y="104" width="375" height="630"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hidden gems words real" translatesAutoresizingMaskIntoConstraints="NO" id="Tta-Sw-zxJ">
+                                <rect key="frame" x="48" y="52" width="318" height="224"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hidden gems Logo (6)" translatesAutoresizingMaskIntoConstraints="NO" id="GJE-B1-MU4">
+                                <rect key="frame" x="-35" y="284" width="484" height="421"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.3029346712863013" green="0.7501480451246576" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -2055,34 +2059,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="illinoisMap" translatesAutoresizingMaskIntoConstraints="NO" id="ah4-u8-Mic">
-                                <rect key="frame" x="27" y="32" width="752" height="665"/>
+                                <rect key="frame" x="27" y="3" width="752" height="665"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location-pin-curvy-solid" translatesAutoresizingMaskIntoConstraints="NO" id="8uw-d5-Rs8">
-                                <rect key="frame" x="196" y="497" width="75" height="93"/>
+                                <rect key="frame" x="196" y="468" width="75" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location-pin-curvy-solid" translatesAutoresizingMaskIntoConstraints="NO" id="My6-zJ-kdN">
-                                <rect key="frame" x="118" y="420" width="75" height="93"/>
+                                <rect key="frame" x="118" y="391" width="75" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location-pin-curvy-solid" translatesAutoresizingMaskIntoConstraints="NO" id="xdG-pp-EhR">
-                                <rect key="frame" x="163" y="279" width="75" height="93"/>
+                                <rect key="frame" x="163" y="250" width="75" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location-pin-curvy-solid" translatesAutoresizingMaskIntoConstraints="NO" id="QRn-BL-1Vm">
-                                <rect key="frame" x="257" y="243" width="75" height="93"/>
+                                <rect key="frame" x="257" y="214" width="75" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="subwayCar" translatesAutoresizingMaskIntoConstraints="NO" id="aYy-5w-LQO">
-                                <rect key="frame" x="44" y="594" width="327" height="365"/>
+                                <rect key="frame" x="44" y="565" width="327" height="365"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
                                 </accessibility>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" choose a city to meet! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="onT-oS-I4k">
-                                <rect key="frame" x="47" y="681" width="294" height="32"/>
+                                <rect key="frame" x="61" y="652" width="294" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="27"/>
@@ -2090,19 +2094,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location-pin-curvy-solid" translatesAutoresizingMaskIntoConstraints="NO" id="P8p-VX-XP3">
-                                <rect key="frame" x="201" y="77" width="75" height="93"/>
+                                <rect key="frame" x="201" y="48" width="75" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location-pin-curvy-solid" translatesAutoresizingMaskIntoConstraints="NO" id="eg9-5H-bSG">
-                                <rect key="frame" x="267" y="65" width="113" height="128"/>
+                                <rect key="frame" x="267" y="36" width="113" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location-pin-curvy-solid" translatesAutoresizingMaskIntoConstraints="NO" id="ueP-h6-AG4">
-                                <rect key="frame" x="43" y="252" width="75" height="93"/>
+                                <rect key="frame" x="43" y="223" width="75" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7UX-QN-Kl7">
-                                <rect key="frame" x="261" y="74" width="119" height="139"/>
+                                <rect key="frame" x="261" y="45" width="119" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle"/>
@@ -2894,8 +2898,10 @@
         <image name="corner17" width="722" height="722"/>
         <image name="crepesSTL" width="1242" height="1242"/>
         <image name="divergent13" width="448" height="700"/>
+        <image name="find" width="932" height="228"/>
         <image name="fitzs" width="720" height="720"/>
         <image name="hidden gems Logo (6)" width="1500" height="1500"/>
+        <image name="hidden gems words real" width="844" height="576"/>
         <image name="https---blogs-images.forbes.com-anneglusker-files-2018-12-Michelle-Obama-book-cover-shot-e1544143689487-1200x944" width="960" height="755"/>
         <image name="illinoisMap" width="1000" height="792"/>
         <image name="karlieSTL" width="1144" height="1144"/>
