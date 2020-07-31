@@ -31,4 +31,18 @@ class clarionViewController: UIViewController {
         UIApplication.shared.open(url)
 
     }
+    @IBOutlet weak var rec: UITextField!
+    @IBOutlet weak var label: UILabel!
+    @IBAction func enter(_ sender: Any) {
+        if let sampleText = rec.text {
+            label.text = sampleText
+        }
+    }
+    @IBAction func enterx(_ sender: Any) {
+        if label.text == "ahshs"{
+            label.text = "you should not see this"
+        }else{
+            label.text = "thank you!"
+        }
+    }
 }
