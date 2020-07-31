@@ -9,7 +9,11 @@
 import UIKit
 
 class popCultureStl: UIViewController {
-
+    @IBAction func theLastAmericanDynasty(_ sender: Any) {
+        let url = URL (string: "https://open.spotify.com/track/2Eeur20xVqfUoM3Q7EFPFt?si=ZYtrrLLKRwuVPOZsi7ln5Q")!
+        UIApplication.shared.open(url)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
