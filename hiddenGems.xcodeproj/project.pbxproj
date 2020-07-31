@@ -35,6 +35,7 @@
 		04F0251824D0ABC50081F1C7 /* popCultureCHI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0251724D0ABC50081F1C7 /* popCultureCHI.swift */; };
 		04F0251A24D0ABD60081F1C7 /* celebritiesCHI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0251924D0ABD60081F1C7 /* celebritiesCHI.swift */; };
 		DA7D136824D3BA07004A5CF6 /* parrotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D136724D3BA07004A5CF6 /* parrotsViewController.swift */; };
+		DA7D136A24D3E0FE004A5CF6 /* clarionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D136924D3E0FE004A5CF6 /* clarionViewController.swift */; };
 		DA8074AD24D28E5300E3E704 /* matchaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8074AC24D28E5300E3E704 /* matchaViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		04F0251724D0ABC50081F1C7 /* popCultureCHI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popCultureCHI.swift; sourceTree = "<group>"; };
 		04F0251924D0ABD60081F1C7 /* celebritiesCHI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celebritiesCHI.swift; sourceTree = "<group>"; };
 		DA7D136724D3BA07004A5CF6 /* parrotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parrotsViewController.swift; sourceTree = "<group>"; };
+		DA7D136924D3E0FE004A5CF6 /* clarionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clarionViewController.swift; sourceTree = "<group>"; };
 		DA8074AC24D28E5300E3E704 /* matchaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matchaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				0430D51824CF69F600A91F89 /* AppDelegate.swift */,
 				0430D51A24CF69F600A91F89 /* SceneDelegate.swift */,
 				0430D51C24CF69F600A91F89 /* ViewController.swift */,
+				DA7D136924D3E0FE004A5CF6 /* clarionViewController.swift */,
 				DA8074AC24D28E5300E3E704 /* matchaViewController.swift */,
 				04F024F124D08D350081F1C7 /* usMap.swift */,
 				04F024F724D08EFA0081F1C7 /* illinois.swift */,
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F024FC24D093700081F1C7 /* stLouis.swift in Sources */,
+				DA7D136A24D3E0FE004A5CF6 /* clarionViewController.swift in Sources */,
 				04F0251024D0A8AC0081F1C7 /* muralsSF.swift in Sources */,
 				04F0250024D0977A0081F1C7 /* foodStl.swift in Sources */,
 				04F0250C24D0A8830081F1C7 /* photosSF.swift in Sources */,
